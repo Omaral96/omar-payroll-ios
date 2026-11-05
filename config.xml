@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.omaralsalahi.payroll" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>حاسبة المرتبات</name>
+    <description>تطبيق إدارة حساب ساعات العمل ومرتبات الموظفين بنظام الفترتين</description>
+    <author email="omar@example.com" href="https://github.com/Omaral96">
+        عمر الصلاحي - المبرمج عمر
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <platform name="ios">
+        <preference name="deployment-target" value="15.0" />
+        <preference name="SwiftVersion" value="5.0" />
+    </platform>
+</widget>
